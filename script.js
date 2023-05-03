@@ -82,7 +82,7 @@ function sum(title) {
 sum('Numbers', 1, 6, 10);
 var executeFunc = function (func) {
     var title = 'Lorem Ipsum';
-    func(title, 24, ['Sport', 'Movies']);
+    func(title, 24, ['Sport', 'Movies', 'Soccer']);
 };
 executeFunc(function (title, age, hobbies) {
     return true;
