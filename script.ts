@@ -106,7 +106,7 @@ const executeFunc = (
 	func: (title: string, age: number, hobbies: string[]) => boolean
 ): void => {
 	const title: string = 'Lorem Ipsum';
-	func(title, 24, ['Sport', 'Movies']);
+	func(title, 24, ['Sport', 'Movies', 'Soccer']);
 };
 
 executeFunc((title, age, hobbies) => {
